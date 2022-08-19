@@ -39,7 +39,7 @@ const Formulario = () => {
         </div>
         <div className="my-5">
           <label className="block mb-3 font-bold text-gray-400 uppercase">
-            Elije un plan
+            Elije un Plan
           </label>
           <div className="flex gap-3">
             {PLANES.map((plan) => (
