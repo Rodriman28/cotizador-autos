@@ -12,8 +12,10 @@ const Formulario = () => {
 
     if (Object.values(datos).includes("")) {
       setError("Todos los campos son obligatorios");
+      return;
     }
     setError("");
+    cotizarSeguro();
   };
 
   return (
